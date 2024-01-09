@@ -40,7 +40,7 @@
             javassist.util.proxy;version="[3.13,4)";resolution:=optional
         </osgi.additional.Import-Package>
         -->
-        <osgi.Export-Package>com.github.dozermapper.core.*</osgi.Export-Package>
+        <osgi.Export-Package>com.github.dozermapper.core. </osgi.Export-Package>
         <!-- ServiceLoader Capability -->
         <osgi.Require-Capability>
             osgi.serviceloader; filter:="(osgi.serviceloader=com.github.dozermapper.core.DozerModule)";cardinality:=multiple;resolution:=optional,
@@ -385,3 +385,4 @@
         </profile>
     </profiles>
 </project>
+ 
